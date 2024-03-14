@@ -4,7 +4,7 @@ const SingleProduct = ({ product, handleCart }) => {
   const { title, price, image, category, description } = product;
   return (
     <div>
-      <div className="border  shadow-lg rounded-md space-y-3 p-5">
+      <div className="border bg-white shadow-lg rounded-md space-y-3 p-5">
         <img
           className=" p-5 m-auto"
           src={image}
